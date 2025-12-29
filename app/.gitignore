@@ -1,1 +1,18 @@
 /build
+# --- Android / Gradle ---
+*.apk
+*.aab
+*.jks
+*.keystore
+app/release/
+app/build/
+build/
+.gradle/
+
+# --- IDE ---
+.idea/
+*.iml
+
+# --- OS ---
+.DS_Store
+Thumbs.db

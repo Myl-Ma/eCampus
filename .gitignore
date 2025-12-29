@@ -13,3 +13,19 @@
 .externalNativeBuild
 .cxx
 local.properties
+# --- Android / Gradle ---
+*.apk
+*.aab
+app/release/
+app/build/
+build/
+.gradle/
+
+# --- IDE ---
+.idea/
+*.iml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
