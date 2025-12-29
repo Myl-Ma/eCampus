@@ -1,7 +1,7 @@
 # eCampus - 校园二手交易 Mini App
 
 eCampus 是一款面向校园场景的 **二手物品交易 Mini App**，旨在为在校学生提供一个便捷、安全、轻量的二手物品发布与浏览平台。  
-本项目完整地实现了从产品设计、功能开发到打包发布的全流程。
+本项目作为腾讯训练营结营个人作业，完整实现了从产品设计、功能开发到打包发布的全流程。
 
 ---
 
@@ -53,17 +53,18 @@ eCampus 以“校园内部流转”为核心理念，聚焦 **轻量化、低学
 - **构建工具**：Android Studio
 
 ### 架构分层
+
 UI Layer → Jetpack Compose Screens
 ViewModel → 状态管理 & 业务逻辑
 Repository → 数据统一入口
 Data Layer → Room / Remote（Supabase 预留）
 
-yaml
-复制代码
 
 ---
 
 ## 📂 项目结构说明
+
+
 
 app/
 ├── data/ # 数据层（entity / dao / repository）
@@ -73,11 +74,6 @@ app/
 │ └── navigation/# 导航与路由
 ├── utils/ # 工具类与状态封装
 └── MainActivity # 应用入口
-
-yaml
-复制代码
-
----
 
 ## 🚀 运行方式
 
